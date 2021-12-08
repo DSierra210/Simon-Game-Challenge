@@ -71,3 +71,9 @@ $(document).keydown(function () {
     nextSequence();
   }
 });
+
+$("#level-title").click(function () {
+  if (!keyHandler) {
+    nextSequence();
+  }
+});
